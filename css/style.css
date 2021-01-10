@@ -20,12 +20,13 @@
     background-image: url(/css/img/bg-pattern.png), linear-gradient(to right, rgb(218, 36, 49), rgb(122, 67, 151));
 }
 
-.navbar-dark {
-    /* width: 58%;  desktop nézet*/
-}
-
 .menu {
     font-size: 12px;
+}
+
+.navbar-fixed-top.scrolled {
+    background-color: #fff !important;
+    transition: background-color 200ms linear;
 }
 
 .nav-link {
@@ -126,6 +127,7 @@ h2 {
 .embed-p {
     font-family: "muli";
     font-size: large;
+    line-height: 1.5rem;
     color: rgb(116, 120, 130);
 }
 
@@ -282,12 +284,33 @@ footer {
     }
     .embed-p {
         font-size: 12px;
+        line-height: 1.2rem;
     }
     .discover-p {
         font-size: 13px;
     }
     .badges {
         width: 140px;
+    }
+    .card-img {
+        width: 230px;
+    }
+    .card-title {
+        font-size: 34px;
+    }
+    .navbar {
+        width: 58%;
+        background-color: transparent !important;
+    }
+    .nav-link {
+        color: rgb(217, 198, 229) !important;
+    }
+    .fixed-top.scrolled {
+        background-color: #fff !important;
+        transition: background-color 200ms linear;
+    }
+    .navbar.scrolled {
+        width: 100%
     }
     /* .social__icon--t {
         font-size: 28px;
