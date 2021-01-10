@@ -166,6 +166,11 @@ h2 {
     background-color: rgb(253, 199, 65);
 }
 
+.social-headline {
+    font-family: "catamaran";
+    font-size: 50px;
+}
+
 .heart-icon {
     color: rgb(221, 76, 57);
 }
@@ -175,10 +180,34 @@ h2 {
     vertical-align: middle;
     font-size: 33px;
     line-height: 48px;
-    padding: 14px 20px 14px 24px;
+    padding: 14px 20px 15px 24px;
+    border-radius: 100%;
+    margin-right: 12px;
+}
+
+.social__icon--f {
+    background-color: rgb(59, 89, 153);
+    vertical-align: middle;
+    font-size: 38px;
+    line-height: 48px;
+    padding: 14px 18px 15px 26px;
+    border-radius: 100%;
+    margin-right: 12px;
+}
+
+.social__icon--g {
+    background-color: rgb(221, 76, 57);
+    vertical-align: middle;
+    font-size: 42px;
+    line-height: 48px;
+    padding: 14px 12px 15px 13px;
     border-radius: 100%;
 }
 
 .google-icon {
     color: white;
+}
+
+footer {
+    background-color: rgb(34, 34, 34);
 }
