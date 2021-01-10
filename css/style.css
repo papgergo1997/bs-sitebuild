@@ -30,8 +30,9 @@
 }
 
 .nav-link {
-    font-size: 10px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    letter-spacing: 1px;
+    font-family: "catamaran", Arial, Helvetica, sans-serif;
     font-weight: 500;
 }
 
@@ -40,7 +41,7 @@
 }
 
 .navbar-brand {
-    font-family: "catamaran";
+    font-family: "catamaran", Arial, Helvetica, sans-serif;
     font-size: 20px;
     letter-spacing: 1px;
     margin-left: 36px;
@@ -59,7 +60,7 @@
 
 .menu {
     color: black;
-    font-family: "catamaran";
+    font-family: "catamaran", Arial, Helvetica, sans-serif;
 }
 
 .card-title {
@@ -72,7 +73,7 @@
 }
 
 h2 {
-    font-family: "catamaran";
+    font-family: "catamaran", Arial, Helvetica, sans-serif;
     font-size: 38px
 }
 
@@ -83,13 +84,13 @@ h2 {
 }
 
 .discover-headline {
-    font-family: "catamaran";
+    font-family: "catamaran", Arial, Helvetica, sans-serif;
     font-size: 52px;
     font-weight: 500;
 }
 
 .discover-p {
-    font-family: "muli";
+    font-family: "muli", Arial, Helvetica, sans-serif;
     font-size: 18px;
 }
 
@@ -100,12 +101,12 @@ h2 {
 /*Features-section*/
 
 .features-headline {
-    font-family: "catamaran";
+    font-family: "catamaran", Arial, Helvetica, sans-serif;
     font-size: 50px;
 }
 
 .features-p {
-    font-family: "muli";
+    font-family: "muli", Arial, Helvetica, sans-serif;
     font-size: 17px;
 }
 
@@ -119,13 +120,13 @@ h2 {
 }
 
 .embed-headline {
-    font-family: "catamaran";
+    font-family: "catamaran", Arial, Helvetica, sans-serif;
     letter-spacing: 1px;
     font-size: 31px;
 }
 
 .embed-p {
-    font-family: "muli";
+    font-family: "muli", Arial, Helvetica, sans-serif;
     font-size: large;
     line-height: 1.5rem;
     color: rgb(116, 120, 130);
@@ -134,15 +135,24 @@ h2 {
 /*Contact-section*/
 
 .contact-page {
+    position: relative;
     background-image: url(/css/img/bg-cta.jpg);
     width: 100%;
-    background-size: 155%;
+    background-size: 180%;
     background-position: center;
     background-repeat: no-repeat;
+    /* -webkit-filter: brightness(60%) */
 }
 
+/* .contact-background {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+} */
+
 .contact-headline {
-    font-family: "catamaran";
+    font-family: "catamaran", Arial, Helvetica, sans-serif;
     color: white;
     font-size: 50px;
     letter-spacing: 1px;
@@ -172,7 +182,7 @@ h2 {
 }
 
 .social-headline {
-    font-family: "catamaran";
+    font-family: "catamaran", Arial, Helvetica, sans-serif;
     font-size: 50px;
 }
 
@@ -238,14 +248,14 @@ footer {
 
 .copyright {
     font-size: 11.8px;
-    font-family: "muli";
+    font-family: "muli", Arial, Helvetica, sans-serif;
     color: rgb(98, 98, 98);
     margin-bottom: -0.05rem;
 }
 
 .modalButton-text {
     color: rgb(98, 98, 98);
-    font-family: "muli";
+    font-family: "muli", Arial, Helvetica, sans-serif;
     font-size: 11.8px
 }
 
@@ -253,12 +263,17 @@ footer {
     color: #fdcc52;
 }
 
-@media screen and (min-width:768px) {
+/*Desktop settings*/
+
+@media screen and (min-width:992px) {
     .social-headline {
         font-size: 40px;
     }
     .contact-page {
         background-size: 120%;
+    }
+    .contact-head {
+        margin-left: 140px !important;
     }
     .contact-headline {
         font-size: 58px;
@@ -327,22 +342,9 @@ footer {
     }
     .nav-link.scrolled {
         color: rgb(69, 69, 69) !important;
+        font-weight: bold;
     }
     .nav-link.scrolled:hover {
         color: #fdcc52 !important;
     }
-    /* .social__icon--t {
-        font-size: 28px;
-        height: 53px;
-        line-height: 53px;
-        padding: 10px 10px 60px 10px;
-    }
-    .social__icon--f {
-        font-size: 28px;
-        padding: 12px 18px 13px 22px;
-    }
-    .social__icon--g {
-        font-size: 28px;
-        padding: 12px 18px 13px 22px;
-    } */
 }
