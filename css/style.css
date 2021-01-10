@@ -1,7 +1,7 @@
 @font-face {
     src: url(/css/fonts/Catamaran/Catamaran-VariableFont_wght.ttf);
     font-family: "catamaran";
-    font-weight: 400;
+    font-weight: 100;
 }
 
 @font-face {
@@ -16,18 +16,156 @@
     font-weight: 400;
 }
 
-header {
+.start-page {
     background-image: url(/css/img/bg-pattern.png), linear-gradient(to right, rgb(218, 36, 49), rgb(122, 67, 151));
 }
 
-a:hover {
+.navbar-dark {
+    /* width: 58%;  desktop nézet*/
+}
+
+.menu {
+    font-size: 12px;
+}
+
+.nav-link {
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+
+.nav-link:hover {
     color: white !important;
 }
 
 .navbar-brand {
-    color: rgb(234, 170, 73) !important;
+    font-family: "catamaran";
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-left: 36px;
+    color: rgb(253, 205, 85) !important;
 }
 
 .navbar-brand:hover {
+    color: white !important;
+}
+
+.navbar-toggler {
+    padding-top: 0;
+    padding: 1px 10px 8px 10px;
+    margin-right: 36px;
+}
+
+.menu {
+    color: black;
+    font-family: "catamaran";
+}
+
+.card-title {
+    letter-spacing: 0px;
+    font-size: 31px;
+}
+
+.card-img {
+    width: 310px;
+}
+
+h2 {
+    font-family: "catamaran";
+    font-size: 38px
+}
+
+/*Discover-section */
+
+.download-page {
+    background-color: rgb(252, 201, 73);
+}
+
+.discover-headline {
+    font-family: "catamaran";
+    font-size: 52px;
+    font-weight: 500;
+}
+
+.discover-p {
+    font-family: "muli";
+    font-size: 18px;
+}
+
+.badges {
+    width: 200px;
+}
+
+/*Features-section*/
+
+.features-headline {
+    font-family: "catamaran";
+    font-size: 50px;
+}
+
+.features-p {
+    font-family: "muli";
+    font-size: 17px;
+}
+
+.features-img {
+    width: 310px;
+}
+
+.feature-icons {
+    color: rgb(167, 52, 103);
+    font-size: 80px;
+}
+
+.embed-headline {
+    font-family: "catamaran";
+    letter-spacing: 1px;
+    font-size: 31px;
+}
+
+.embed-p {
+    font-family: "muli";
+    font-size: large;
+}
+
+/*Contact-section*/
+
+.contact-page {
+    background-image: url(/css/img/bg-cta.jpg);
+    background-size: 160%;
+    background-repeat: no-repeat;
+}
+
+.contact-headline {
+    font-family: "catamaran";
     color: white;
+    font-size: 50px;
+    letter-spacing: 1px;
+}
+
+.my-btn {
+    background-color: transparent;
+    border: 1px solid;
+    border-radius: 30px;
+    color: white;
+    padding: 14px 42px 14px 42px;
+    letter-spacing: 3px;
+    font-family: "lato";
+    font-size: 11px;
+    transition: background, border 300ms;
+}
+
+.my-btn:hover {
+    background-color: #fdcc52;
+    border-color: #fdcc52;
+}
+
+/*Social media section*/
+
+.social-media-page {
+    background-color: rgb(253, 199, 65);
+}
+
+.heart-icon {
+    color: rgb(221, 76, 57);
 }
