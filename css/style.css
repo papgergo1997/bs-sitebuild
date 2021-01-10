@@ -132,7 +132,9 @@ h2 {
 
 .contact-page {
     background-image: url(/css/img/bg-cta.jpg);
-    background-size: 160%;
+    width: 100%;
+    background-size: 155%;
+    background-position: center;
     background-repeat: no-repeat;
 }
 
@@ -149,7 +151,7 @@ h2 {
     border-radius: 30px;
     color: white;
     padding: 14px 42px 14px 42px;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
     font-family: "lato";
     font-size: 11px;
     transition: background, border 300ms;
