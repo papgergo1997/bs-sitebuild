@@ -126,6 +126,7 @@ h2 {
 .embed-p {
     font-family: "muli";
     font-size: large;
+    color: rgb(116, 120, 130);
 }
 
 /*Contact-section*/
@@ -158,7 +159,7 @@ h2 {
 }
 
 .my-btn:hover {
-    background-color: #fdcc52;
+    background: #fdcc52;
     border-color: #fdcc52;
 }
 
@@ -179,6 +180,7 @@ h2 {
 
 .social__icon--t {
     background-color: rgb(29, 161, 243);
+    opacity: 90%;
     vertical-align: middle;
     font-size: 33px;
     line-height: 48px;
@@ -189,6 +191,7 @@ h2 {
 
 .social__icon--f {
     background-color: rgb(59, 89, 153);
+    opacity: 90%;
     vertical-align: middle;
     font-size: 38px;
     line-height: 48px;
@@ -199,11 +202,24 @@ h2 {
 
 .social__icon--g {
     background-color: rgb(221, 76, 57);
+    opacity: 90%;
     vertical-align: middle;
     font-size: 42px;
     line-height: 48px;
     padding: 14px 12px 15px 13px;
     border-radius: 100%;
+}
+
+.social__icon--g:hover {
+    opacity: 100%;
+}
+
+.social__icon--f:hover {
+    opacity: 100%;
+}
+
+.social__icon--t:hover {
+    opacity: 100%;
 }
 
 .google-icon {
@@ -233,4 +249,58 @@ footer {
 
 .modalButton-text:hover {
     color: #fdcc52;
+}
+
+@media screen and (min-width:768px) {
+    .social-headline {
+        font-size: 40px;
+    }
+    .contact-page {
+        background-size: 120%;
+    }
+    .contact-headline {
+        font-size: 58px;
+    }
+    .my-btn {
+        font-size: 8px;
+        padding: 12px 35px 12px 35px;
+    }
+    .features-headline {
+        font-size: 40px;
+    }
+    .features-p {
+        font-size: 13.5px;
+    }
+    .features-img {
+        width: 230px;
+    }
+    .feature-icons {
+        font-size: 60px;
+    }
+    .embed-headline {
+        font-size: 22px;
+    }
+    .embed-p {
+        font-size: 12px;
+    }
+    .discover-p {
+        font-size: 13px;
+    }
+    .badges {
+        width: 140px;
+    }
+    /* .social__icon--t {
+        font-size: 28px;
+        height: 53px;
+        line-height: 53px;
+        padding: 10px 10px 60px 10px;
+    }
+    .social__icon--f {
+        font-size: 28px;
+        padding: 12px 18px 13px 22px;
+    }
+    .social__icon--g {
+        font-size: 28px;
+        padding: 12px 18px 13px 22px;
+    } */
 }
