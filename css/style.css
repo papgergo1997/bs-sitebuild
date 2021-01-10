@@ -36,7 +36,7 @@
 }
 
 .nav-link:hover {
-    color: white !important;
+    color: #fdcc52 !important;
 }
 
 .navbar-brand {
@@ -305,12 +305,31 @@ footer {
     .nav-link {
         color: rgb(217, 198, 229) !important;
     }
+    .nav-link:hover {
+        color: white !important;
+    }
     .fixed-top.scrolled {
         background-color: #fff !important;
         transition: background-color 200ms linear;
     }
     .navbar.scrolled {
         width: 100%
+    }
+    .navbar-brand.scrolled {
+        margin-left: 335px;
+        color: rgb(69, 69, 69) !important;
+    }
+    .navbar-brand.scrolled:hover {
+        color: #fdcc52 !important;
+    }
+    .navbar-nav.scrolled {
+        margin-right: 299px;
+    }
+    .nav-link.scrolled {
+        color: rgb(69, 69, 69) !important;
+    }
+    .nav-link.scrolled:hover {
+        color: #fdcc52 !important;
     }
     /* .social__icon--t {
         font-size: 28px;
