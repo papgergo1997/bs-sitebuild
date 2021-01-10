@@ -208,6 +208,27 @@ h2 {
     color: white;
 }
 
+/*Footer*/
+
 footer {
     background-color: rgb(34, 34, 34);
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.copyright {
+    font-size: 11.8px;
+    font-family: "muli";
+    color: rgb(98, 98, 98);
+    margin-bottom: -0.05rem;
+}
+
+.modalButton-text {
+    color: rgb(98, 98, 98);
+    font-family: "muli";
+    font-size: 11.8px
+}
+
+.modalButton-text:hover {
+    color: #fdcc52;
 }
